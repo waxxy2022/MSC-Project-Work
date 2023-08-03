@@ -45,7 +45,7 @@
                      <a href="service.html">Services</a>
                      <a href="about.html">About</a>
                      <a href="blog.html">Blog</a>
-                     <a href="shop.html">Shop</a>
+                     <a href="shop.php">Shop</a>
                      <!-- <a href="contacts.html">Contacts</a> -->
                   </div>
                   <form class="form-inline ">
@@ -78,7 +78,7 @@
                      </div>
                      <div class="login_menu">
                         <ul>
-                           <li><a href="login.php">Login</a></li>
+                           <li><a href="index.php">Login</a></li>
                            <li><a href="shop.php"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                         </ul>
                      </div>
@@ -201,14 +201,14 @@
                            <div class="service_box">
                               <div class="breakfast_img"><img src="images/alcohol-img.png"></div>
                            </div>
-                           <h4 class="breakfast_text">Alcohol</h4>
-                           <div class="seemore_bt"><a href="#">See More</a></div>
+                           <h4 class="breakfast_text"> Strawberry</h4>
+                           <div class="seemore_bt"><a href="index.php">See More</a></div>
                         </div>
                         <div class="col">
                            <div class="service_box">
                               <div class="breakfast_img"><img src="images/diningtable-img.png"></div>
                            </div>
-                           <h4 class="breakfast_text">Diningtable</h4>
+                           <h4 class="breakfast_text">Tea</h4>
                            <div class="seemore_bt"><a href="#">See More</a></div>
                         </div>
                      </div>

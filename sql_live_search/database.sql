@@ -13,6 +13,8 @@ CREATE TABLE `tbl_category` (
   `name` varchar(255) NOT NULL,
   `slug` varchar(255) NOT NULL,
   `image` text NOT NULL
+  
+
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -20,7 +22,7 @@ CREATE TABLE `tbl_category` (
 --
 
 INSERT INTO `tbl_category` (`id`, `name`, `slug`, `image`) VALUES
-(1, 'Luxury Ultra thin Wrist Watch', 'Luxury Ultra thin Wrist Watch-1', 'image/watch.jpg'),
+(1, 'Plant', 'Luxury Ultra thin Wrist Watch-1', 'image/watch.jpg'),
 (2, 'Luxury XP 1155 Intel Core Laptop', 'XP 1155 Intel Core Laptop-2', 'image/laptop.jpg');
 
 -- --------------------------------------------------------
@@ -31,13 +33,14 @@ INSERT INTO `tbl_category` (`id`, `name`, `slug`, `image`) VALUES
 
 CREATE TABLE `tbl_product` (
   `id` int(11) NOT NULL,
-  `product_code` varchar(255) NOT NULL,
+  `type` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
-  `slug` varchar(255) NOT NULL,
+  `group` varchar(255) NOT NULL,
   `description` varchar(255) NOT NULL,
   `image` text NOT NULL,
-  `category_id` int(11) NOT NULL,
-  `featured` varchar(255) NOT NULL,
+  `food` varchar(255) NOT NULL,
+ 
+  
   `create_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -45,9 +48,10 @@ CREATE TABLE `tbl_product` (
 -- Dumping data for table `tbl_product`
 --
 
-INSERT INTO `tbl_product` (`id`, `product_code`, `name`, `slug`, `description`, `image`, `category_id`, `featured`, `create_at`) VALUES
-(1, '3DcAM01', 'FinePix Pro2 3D Camera', 'FinePix Pro2 3D Camera-1', 'Unlimited 4K print quality photography', 'image/camera.jpg', 1, '1', '2021-05-06 05:24:27'),
-(2, 'USB02', 'EXP Portable Hard Drive', 'EXP Portable Hard Drive-2', 'A hard drive is a storage device required to hold on to your files and data for the long term', 'image/external-hard-drive.jpg', 2, '1', '2021-05-06 05:27:29');
+INSERT INTO `tbl_product` (`id`, `type`, `name`, `group`, `description`, `image`, `food`, `create_at`) VALUES
+(1, 'Nut and Seed', 'PlantOrigin', 'Oil seed', 'Allergy-Nut Allergy', 'image/camera.jpg', 'Almond', '2023-08-06 05:24:27'),
+
+(2, 'Nut and Seed', 'PlantOrigin', 'Oil seed', 'Allergy-Nut Allergy', 'image/camera.jpg', 'Almond', '2023-08-06 05:24:27');
 
 --
 -- Indexes for dumped tables

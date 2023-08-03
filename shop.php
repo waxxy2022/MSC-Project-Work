@@ -46,6 +46,7 @@
                      <a href="about.html">About</a>
                      <a href="blog.html">Blog</a>
                      <a href="shop.html">Shop</a>
+                     
                      <!-- <a href="contacts.html">Contacts</a> -->
                   </div>
                   <form class="form-inline ">
@@ -73,9 +74,12 @@
                            <li><a href="service.html">Services</a></li>
                            <li><a href="about.html">About</a></li>
                            <li><a href="blog.html">Blog</a></li>
-                           <li class="active"><a href="shop.html">Shop</a></li>
+                           <li class="active"><a href="">Shop</a></li><br><br>
+                           <!-- <li class="active"><a href="">Welcome Adewale Tairu </a></li> -->
+                           
                            <!-- <li><a href="contact.html">Contacts</a></li> -->
                         </ul>
+                       
                      </div>
                      <div class="login_menu">
                         <ul>

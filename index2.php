@@ -8,7 +8,7 @@
 	<div class="phppot-container">
 		<div class="header-search">
 			<input type="text" class="img-url" id="search-box"
-				placeholder="Search for products, categories..." />
+				placeholder="Search for recipes, allegies..." />
 			<div id="suggesstion-box"></div>
 		</div>
 	</div>
